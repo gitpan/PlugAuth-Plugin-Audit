@@ -1,0 +1,11 @@
+Revision history for PlugAuth-Plugin-Audit
+
+0.04      2013-04-23 17:09:32 America/New_York
+  - use [ACPS::RPM]
+  - use MakeMaker instead of ModuleBuild
+
+0.03      2013-04-16 12:59:52 America/New_York
+  - added VERSION
+
+0.02      2013-04-15 14:32:47 America/New_York
+  - initial version

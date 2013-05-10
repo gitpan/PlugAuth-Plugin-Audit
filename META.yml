@@ -1,0 +1,31 @@
+---
+abstract: 'Audit log for authentication/authorization'
+author:
+  - 'Graham Ollis <plicease@cpan.org>'
+build_requires:
+  File::HomeDir::Test: 0
+  Test::Mojo: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: PlugAuth-Plugin-Audit
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  DateTime: 0
+  File::HomeDir: 0
+  Path::Class::Dir: 0
+  Path::Class::File: 0
+  PlugAuth: 0.09
+  PlugAuth::Role::Plugin: 0
+  Role::Tiny::With: 0
+  YAML: 0
+version: 0.04
