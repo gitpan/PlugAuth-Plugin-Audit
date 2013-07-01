@@ -7,13 +7,13 @@ use Role::Tiny::With;
 use Path::Class::Dir;
 use Path::Class::File;
 use File::HomeDir;
-use YAML qw( Dump LoadFile );
+use YAML::XS qw( Dump LoadFile );
 use DateTime;
 
 with 'PlugAuth::Role::Plugin';
 
 # ABSTRACT: Audit log for authentication/authorization
-our $VERSION = '0.04'; # VERSION
+our $VERSION = '0.05'; # VERSION
 
 
 with 'PlugAuth::Role::Plugin';
@@ -148,7 +148,7 @@ PlugAuth::Plugin::Audit - Audit log for authentication/authorization
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 

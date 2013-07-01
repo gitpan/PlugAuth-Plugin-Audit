@@ -1,5 +1,10 @@
 Revision history for PlugAuth-Plugin-Audit
 
+0.05      2013-06-30 21:53:33 America/New_York
+
+0.05      2013-06-30 19:22:06 America/New_York
+  - use YAML::XS instead of YAML, since Clustericious requires YAML::XS (but not YAML)
+
 0.04      2013-04-23 17:09:32 America/New_York
   - use [ACPS::RPM]
   - use MakeMaker instead of ModuleBuild

@@ -7,7 +7,7 @@ use File::HomeDir;
 use Test::More tests => 20;
 use Test::Mojo;
 use Path::Class::Dir;
-use YAML qw( Dump LoadFile );
+use YAML::XS qw( Dump LoadFile );
 use Path::Class::File;
 use Path::Class::Dir;
 

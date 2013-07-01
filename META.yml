@@ -8,17 +8,13 @@ build_requires:
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
-dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300021, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: PlugAuth-Plugin-Audit
-no_index:
-  directory:
-    - t
-    - inc
 requires:
   DateTime: 0
   File::HomeDir: 0
@@ -27,5 +23,10 @@ requires:
   PlugAuth: 0.09
   PlugAuth::Role::Plugin: 0
   Role::Tiny::With: 0
-  YAML: 0
-version: 0.04
+  YAML::XS: 0
+  perl: v5.10.0
+resources:
+  bugtracker: https://github.com/plicease/plugauth-plugin-audit/issues
+  homepage: http://perl.wdlabs.com/PlugAuth-Plugin-Audit/
+  repository: git://github.com/plicease/plugauth-plugin-audit.git
+version: 0.05

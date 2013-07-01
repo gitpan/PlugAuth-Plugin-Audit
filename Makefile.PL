@@ -31,9 +31,9 @@ my %WriteMakefileArgs = (
     "PlugAuth" => "0.09",
     "PlugAuth::Role::Plugin" => 0,
     "Role::Tiny::With" => 0,
-    "YAML" => 0
+    "YAML::XS" => 0
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }
